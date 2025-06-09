@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Faculty+Glyphic&family=Fascinate+Inline&display=swap');
+*{font-family: "Faculty Glyphic", sans-serif;
+font-size: 20px;}
+body{background-color:#D0CE7C;}
+img{border-radius: 20px;
+width: 500px;
+height: 250px;}
+div{background-color: #646F58;}
+h1{font-family: "Fascinate Inline", system-ui; font-size: 30px;
+color: whitesmoke;}
+h2{color: #F36608;}
+p{color: #616163;}
+.colormarron{color: #330036;}
+a{font-family: "DM Serif Text", serif;color: #330036;}

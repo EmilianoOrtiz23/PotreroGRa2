@@ -1,0 +1,143 @@
+:root {
+    --barn-red: #780000ff;
+    --fire-brick: #c1121fff;
+    --papaya-whip: #fdf0d5ff;
+    --prussian-blue: #003049ff;
+    --air-superiority-blue: #669bbcff;
+    --floral-white: #fffcf2ff;
+    --eerie-black: #252422ff;
+    --flame: #eb5e28ff;
+}
+*¨{
+    box-sizing: border-box;
+}
+   body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background-color: var(--floral-white);
+}
+img{ 
+    border-radius: 10px; 
+    size-adjust: 100%;
+}
+
+/*estilo header*/
+header{
+    padding: 80px;
+    text-align: start;
+    background-image: url(../images/basketballring.png);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--floral-white);
+}
+
+@media (max-whidt: 975px) {
+    header {
+        background-position: center;
+    }
+    
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--prussian-blue);
+    position: sticky;
+    top: 0;
+}
+.navbar a{
+    color: var(--papaya-whip);
+    padding: 20px 25px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: var(--air-superiority-blue);
+    color: var(--eerie-black);
+}
+@media (max-width: 795px) {
+    .navbar{
+        flex-direction: column;
+        position: unset;
+    }
+}
+
+/*estilo principal*/
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex-basis: 20%;
+    background-color: var(--fire-brick);
+    color: var(--floral-white);
+    height: 100vh;
+    text-align: center;
+}
+aside h2{
+    text-decoration: underline;
+}
+main{
+    padding: 20px;
+    margin: auto;
+    flex-basis: 80%;
+}
+main img{
+    width: 100%;
+}
+main .seguir-leyendo{
+    color: var(--prussian-blue);
+    text-decoration: none;
+}
+@media (max-whidt: 795px) {
+    .principal{
+        flex-direction: column;
+    }
+}
+.conteiner-fluid{
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.col :hover{
+    background-color: var(--flame);
+    color: var(--floral-white);
+}
+iframe{
+    border-radius: 20px;
+    width: 100%;
+}
+
+/*estilo formulario*/
+form{
+    margin: auto;
+    padding: 50px;
+    width: fit-content;
+    background-color: var(--air-superiority-blue);
+    text-align: center;
+}
+label{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--prussian-blue);
+    color: var(--floral-white);
+}
+
+fieldset{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    margin: auto;
+    width: fit-content;
+}
+legend{
+    color: var(--prussian-blue);
+    text-align: center;
+    text-decoration: underline;
+}
+/*estilo footer*/
+footer{ 
+    padding: 15px;
+    background-color: var(--barn-red);
+    color: var(--papaya-whip);
+    text-align: center;
+}
